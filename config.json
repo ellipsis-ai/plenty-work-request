@@ -1,0 +1,8 @@
+{
+  "name" : "Work Request",
+  "exportId" : "SFmviSgIR6-_taKIwzsQyA",
+  "icon" : "👷",
+  "requiredAWSConfigs" : [ ],
+  "requiredOAuthApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
+}
