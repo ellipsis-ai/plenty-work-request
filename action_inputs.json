@@ -29,6 +29,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "HJeDrMd5QoSuRa-fibDXmQ",
+  "name" : "recurrence",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I ask people? e.g. \"every week on Tuesday and Thursday at 8am\"",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "Wt3kdUqJReSWqxZpQsZHCQ",
   "name" : "date",
   "paramType" : {
@@ -76,6 +86,16 @@
     "name" : "Text"
   },
   "question" : "What is the value for `requestData`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "yNMmNDJXR2eI7-Qlu9JnMA",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Which channel should I ask people about work requests?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 } ]

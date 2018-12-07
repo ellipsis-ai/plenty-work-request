@@ -1,0 +1,1 @@
+OK, I scheduled a reminder for people to ask for work requests in {channel}. It will run on schedule {successResult.recurrence}, starting {successResult.firstRecurrence}.
