@@ -2,8 +2,11 @@ function(requestData, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
 const actionsApi = new EllipsisApi(ellipsis).actions;
 const client = require('GoogleClient')(ellipsis);
-const {google} = require('googleapis');
-const sheets = google.sheets('v4');
+const {google} = ellipsis.require('googleapis@38.0.0');
+const sheets = google.sheets({
+  version: 'v4',
+  auth: client
+});
 const WorkRequest = require("WorkRequest");
 const moment = require("moment-timezone");
 moment.tz.setDefault(ellipsis.teamInfo.timeZone);
